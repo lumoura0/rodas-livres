@@ -1,0 +1,13 @@
+/* Add your custom styles here */
+body {
+  min-height: 100vh;
+  background-color: #1C80A1;
+
+}
+
+.container {
+  max-width: 1250px;
+}
+
+.bg-color {
+}
