@@ -1,13 +1,56 @@
-/* Add your custom styles here */
 body {
-  min-height: 100vh;
-  background-color: #1C80A1;
+    background: linear-gradient(to bottom right, #DDF5FA, #FBFAE4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
 
-}
+  .content-container {
+    width: 1300px;
+    height: 800px;
+    background-color: #076484;
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.container {
-  max-width: 1250px;
-}
+  .form-container {
+    width: 740px;
+  }
 
-.bg-color {
-}
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form-control {
+    width: 311px;
+    border-radius: 0 !important;
+  }
+
+  .form-control.email {
+    width: 100%;
+  }
+
+  .perfil-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .perfil-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .align-end {
+    align-self: flex-end;
+  }
